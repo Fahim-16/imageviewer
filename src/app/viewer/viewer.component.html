@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <div class="row g-5">
+                <div *ngFor="let i of data" class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                    <div class="card" style="width: 18rem;">
+                        <img height="500px" src="{{i.url}}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">{{i.id}}</h5>
+                          <p class="card-text">{{i.title}}</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
